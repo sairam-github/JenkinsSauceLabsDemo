@@ -18,7 +18,7 @@ public class PtcContactusTest extends TestCase {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\WebDev\\workspace\\Selenium\\Drivers\\chromedriver\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
+		// options.addArguments("--headless");
 		driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
